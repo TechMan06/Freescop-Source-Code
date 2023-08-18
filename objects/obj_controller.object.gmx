@@ -126,7 +126,7 @@ global.replaying = false;
     skip = false;
 
 //replay struc
-    read_demo();
+read_demo();
 
 </string>
           </argument>
@@ -776,11 +776,16 @@ ds_map_destroy(replayinputs);
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_set_colour(c_purple);
-draw_text(128,120,string(round((obj_player_rpg.y)/32)*32));
-draw_text(128,140,string(round((obj_player_rpg.x)/32)*32));
-draw_text(128,180,string(round(obj_player_rpg.y)));
-draw_text(128,200,string(round(obj_player_rpg.x)));
+            <string>draw_set_colour(c_black);
+
+
+//draw_text(128,120,string(round((obj_player_rpg.y)/32)*32));
+draw_text(128,120,global.recordingname);
+//draw_text(128,140,string(round((obj_player_rpg.x)/32)*32));
+//draw_text(128,180,string(round(obj_player_rpg.y)));
+//draw_text(128,200,string(round(obj_player_rpg.x)));
+
+
 /*draw_text(8,32,string(obj_player_rpg.acc));
 draw_text(8,100,string(obj_player_rpg.dir));
 draw_text(8,135,string(obj_player_rpg.xaxis));

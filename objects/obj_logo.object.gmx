@@ -77,15 +77,15 @@ demo_timer = 0;
 
 if(demo_timer &gt;= 7200/4 &amp;&amp; anim_step = 0) {
 
-if(file_exists("demodat.dat")) {
+if(file_exists("recordings/demodat.dat")) {
 
-if(file_exists("demopieces.dat")) {
+if(file_exists("recordings/demopieces.dat")) {
 
 ds_map_destroy(obj_manager.save_data);
-obj_manager.save_data = ds_map_secure_load("demopieces.dat");
+obj_manager.save_data = ds_map_secure_load("recordings/demopieces.dat");
 
 if !(ds_exists(obj_manager.save_data,ds_type_map)) {
-file_delete("demopieces.dat");
+file_delete("recordings/demopieces.dat");
 } else {
     with(obj_manager) {
         global.pieces = ds_map_find_value(obj_manager.save_data,"pieces")
@@ -94,9 +94,9 @@ file_delete("demopieces.dat");
 }
 }
 
-var tempdat = ds_map_secure_load("demodat.dat");
+var tempdat = ds_map_secure_load("recordings/demodat.dat");
 if !(ds_exists(tempdat,ds_type_map)) {
-file_delete("demodat.dat");
+file_delete("recordings/demodat.dat");
 demo_timer = 0;
 } else {
 if(!instance_exists(obj_fade)) {

@@ -1886,6 +1886,7 @@
       <script>scripts\Convert_3d.gml</script>
       <script>scripts\Convert_2d.gml</script>
       <script>scripts\scr_p2_talk_converter.gml</script>
+      <script>scripts\scr_recording_name.gml</script>
     </scripts>
     <script>scripts\scr_player_getdir.gml</script>
   </scripts>

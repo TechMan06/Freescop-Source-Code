@@ -13,7 +13,7 @@ global.amberclosed2 = true;
 global.careheight = 0;
 global.nmp = false;
 global.p2toggle = false;
-global.wmark = true;
+global.recordingname = "";
 global.newmusic = noone;
 global.usenewsong = false;
 global.gfx = false;
@@ -22,6 +22,7 @@ global.keyboard = true;
 global.light = false;
 global.inner_brightness = 1;
 global.rad = 256;
+global.replaymenu = false;
 
 global.error = false;
 global.paused = false;

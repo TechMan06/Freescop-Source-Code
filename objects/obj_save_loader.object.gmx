@@ -663,7 +663,7 @@ obj_player_rpg.player_z =ds_map_find_value(obj_manager.save_data,"z");
 global.nmp = ds_map_find_value(obj_manager.save_data,"panicsv");
 global.secretdoor = ds_map_find_value(obj_manager.save_data,"trapdoor");
 global.pieces = ds_map_find_value(obj_manager.save_data,"pieces")
-ds_map_secure_save(obj_manager.save_data,"demodat.dat");
+ds_map_secure_save(obj_manager.save_data,"recordings/demodat.dat");
 }
 }
 //for(i = 0; i &lt; ds_map_size(obj_manager.save_data); i++) {
