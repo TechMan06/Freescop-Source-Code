@@ -551,7 +551,7 @@ if(joystick_check_button(1, 10) || keyboard_check(vk_enter) || keyboard_check(vk
     }
 }
 //record
-} else if(global.recording) {
+} else if(global.recording) &amp;&amp; (!instance_exists(obj_fade)) {
 
 reStep++;
 

@@ -71,6 +71,33 @@ global.pausetext = "Have you found#anything weird#lately?##There is much to#find
     <instance objName="obj_door_approach" x="496" y="-80" name="inst_99A1E47A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_door" x="-864" y="-48" name="inst_2174EE80" locked="0" code="x = -27.5*32&#xA;&#xA;target_room = rm_unmp_phone;&#xA;target_x = 1.5*32;&#xA;target_y = -16;&#xA;fade_color = c_black;&#xA;dir = spr_player_move_right;&#xA;exitdir = spr_player_right;&#xA;forcemove = true;&#xA;transition_time = 70;&#xA;doorsteps = true;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_door_approach" x="-1168" y="-48" name="inst_E772ECF8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_piece1" x="-32" y="-96" name="inst_62399D4E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_piece4" x="-64" y="-96" name="inst_F49E3FA0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_piece2" x="-32" y="-128" name="inst_8E6C61E1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_piece3" x="-64" y="-128" name="inst_185FCABE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_piece3" x="-160" y="-96" name="inst_5C0484F3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_piece3" x="-160" y="-128" name="inst_8E6B925B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_piece4" x="-192" y="-96" name="inst_DEA2A046" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_piece5" x="-224" y="-96" name="inst_E71B888E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_piece5" x="-192" y="-128" name="inst_C3C419A1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_piece5" x="-256" y="-96" name="inst_B73A9D0E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_piece2" x="-224" y="-128" name="inst_4EE6848A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_piece1" x="-256" y="-128" name="inst_676425F6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_piece1" x="-352" y="-96" name="inst_FB6A31D4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_piece4" x="-384" y="-128" name="inst_D429095A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_piece3" x="-352" y="-128" name="inst_BF3A0D2E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_piece2" x="-384" y="-96" name="inst_160E46F5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_piece5" x="-480" y="-96" name="inst_C46A6474" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_piece5" x="-480" y="-128" name="inst_F4F013C0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_piece1" x="-512" y="-128" name="inst_19598ED7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_piece1" x="-512" y="-96" name="inst_0F0E8E33" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_piece2" x="-544" y="-96" name="inst_22BF5E6B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_piece4" x="-544" y="-128" name="inst_229930F9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_piece1" x="-656" y="-96" name="inst_BF10D980" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_piece3" x="-688" y="-96" name="inst_5D698AE0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_piece2" x="-720" y="-96" name="inst_F7322703" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_piece4" x="-656" y="-128" name="inst_B0E3EBA0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_piece4" x="-688" y="-112" name="inst_A09832E1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

@@ -417,8 +417,7 @@ if(!instance_exists(obj_dialogue) &amp;&amp; !instance_exists(obj_picture) &amp;
     //book
     if(menu_button = 3) {
     if(global.action_pressed) {
-            audio_play_sound(snd_pause_pets_open,2,false);
-            bookmenu = true;
+            audio_play_sound(snd_pause_error,2,false);
         }
         book = scr_approach(book,addnum,menuspd);
         bookindx = 1;
@@ -1111,10 +1110,8 @@ if(surface_exists(screen1)) {
 
     demotime++;
     
-    if(instance_exists(obj_player_fps) &amp;&amp; global.wmark) {
-    //draw_sprite(spr_p3d_demo,demotime/30,160,25);
-    } else if(global.wmark) {
-    //draw_sprite(spr_p3d_demo,demotime/30,160,225);
+    if(global.replaying) {
+        draw_sprite(spr_p3d_demo,demotime/30,(global.gamewidth/2),47);
     }
     }
     draw_set_valign(fa_top)

@@ -71,6 +71,9 @@ global.pausetext = "Have you found#anything weird#lately?##There is much to#find
     <instance objName="obj_door_approach" x="208" y="-16" name="inst_4173FCAB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_door" x="-336" y="-16" name="inst_8E8017F2" locked="0" code="target_room = rm_unmp_hall_road;&#xA;target_x = 144;&#xA;target_y = -32;&#xA;fade_color = c_black;&#xA;dir = spr_player_move_right;&#xA;exitdir = spr_player_right;&#xA;forcemove = true;&#xA;transition_time = 70;&#xA;doorsteps = true;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_door_approach" x="-496" y="-16" name="inst_7078D3FC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_piece1" x="-176" y="-32" name="inst_6465C679" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_piece3" x="-144" y="-32" name="inst_12FDAAAE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_piece4" x="-208" y="-32" name="inst_2948C186" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

@@ -3,7 +3,7 @@
   <Configs name="configs">
     <Config>Configs\Default</Config>
   </Configs>
-  <datafiles number="110" name="datafiles">
+  <datafiles number="114" name="datafiles">
     <datafile>
       <name>entrance.gmmod</name>
       <exists>-1</exists>
@@ -89,7 +89,7 @@
       </ConfigOptions>
       <filename>windmillblades.gmmod</filename>
     </datafile>
-    <datafiles number="110" name="General_Objects">
+    <datafiles number="114" name="General_Objects">
       <datafile>
         <name>rm2sign.gmmod</name>
         <exists>-1</exists>
@@ -244,7 +244,7 @@
         <filename>evc_bucket_wavy.gmmod</filename>
       </datafile>
     </datafiles>
-    <datafiles number="110" name="Giftplane">
+    <datafiles number="114" name="Giftplane">
       <datafile>
         <name>giftplanetext.gmmod</name>
         <exists>-1</exists>
@@ -297,7 +297,7 @@
         <filename>mini_even_care.gmmod</filename>
       </datafile>
     </datafiles>
-    <datafiles number="110" name="title">
+    <datafiles number="114" name="title">
       <datafile>
         <name>roadrail.gmmod</name>
         <exists>-1</exists>
@@ -333,7 +333,7 @@
         <filename>titlescreen.gmmod</filename>
       </datafile>
     </datafiles>
-    <datafiles number="110" name="evencare">
+    <datafiles number="114" name="evencare">
       <datafile>
         <name>rm1collisions.gmmod</name>
         <exists>-1</exists>
@@ -470,7 +470,7 @@
         </ConfigOptions>
         <filename>rm3tex.gmmod</filename>
       </datafile>
-      <datafiles number="110" name="amber_doors">
+      <datafiles number="114" name="amber_doors">
         <datafile>
           <name>rm3door.gmmod</name>
           <exists>-1</exists>
@@ -591,7 +591,7 @@
         </ConfigOptions>
         <filename>rm5general.gmmod</filename>
       </datafile>
-      <datafiles number="110" name="pen_piano">
+      <datafiles number="114" name="pen_piano">
         <datafile>
           <name>rm5pianopressed.gmmod</name>
           <exists>-1</exists>
@@ -764,7 +764,7 @@
         <filename>rm7collisions.gmmod</filename>
       </datafile>
     </datafiles>
-    <datafiles number="110" name="newmaker_plane">
+    <datafiles number="114" name="newmaker_plane">
       <datafile>
         <name>trapdoordoor.gmmod</name>
         <exists>-1</exists>
@@ -800,8 +800,8 @@
         <filename>trapdoorframe.gmmod</filename>
       </datafile>
     </datafiles>
-    <datafiles number="110" name="under_nmp">
-      <datafiles number="110" name="child_library">
+    <datafiles number="114" name="under_nmp">
+      <datafiles number="114" name="child_library">
         <datafile>
           <name>unmp_child_library_hall.gmmod</name>
           <exists>-1</exists>
@@ -887,8 +887,76 @@
           </ConfigOptions>
           <filename>unmp_child_library_entrance_collisions.gmmod</filename>
         </datafile>
+        <datafile>
+          <name>unmp_child_library_room.gmmod</name>
+          <exists>-1</exists>
+          <size>148382</size>
+          <exportAction>2</exportAction>
+          <exportDir></exportDir>
+          <overwrite>0</overwrite>
+          <freeData>-1</freeData>
+          <removeEnd>0</removeEnd>
+          <store>0</store>
+          <ConfigOptions>
+            <Config name="Default">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+          </ConfigOptions>
+          <filename>unmp_child_library_room.gmmod</filename>
+        </datafile>
+        <datafile>
+          <name>unmp_child_library_room_furniture.gmmod</name>
+          <exists>-1</exists>
+          <size>23777</size>
+          <exportAction>2</exportAction>
+          <exportDir></exportDir>
+          <overwrite>0</overwrite>
+          <freeData>-1</freeData>
+          <removeEnd>0</removeEnd>
+          <store>0</store>
+          <ConfigOptions>
+            <Config name="Default">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+          </ConfigOptions>
+          <filename>unmp_child_library_room_furniture.gmmod</filename>
+        </datafile>
+        <datafile>
+          <name>unmp_child_library_room_matress.gmmod</name>
+          <exists>-1</exists>
+          <size>3324</size>
+          <exportAction>2</exportAction>
+          <exportDir></exportDir>
+          <overwrite>0</overwrite>
+          <freeData>-1</freeData>
+          <removeEnd>0</removeEnd>
+          <store>0</store>
+          <ConfigOptions>
+            <Config name="Default">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+          </ConfigOptions>
+          <filename>unmp_child_library_room_matress.gmmod</filename>
+        </datafile>
+        <datafile>
+          <name>unmp_child_library_room_lamp.gmmod</name>
+          <exists>-1</exists>
+          <size>16009</size>
+          <exportAction>2</exportAction>
+          <exportDir></exportDir>
+          <overwrite>0</overwrite>
+          <freeData>-1</freeData>
+          <removeEnd>0</removeEnd>
+          <store>0</store>
+          <ConfigOptions>
+            <Config name="Default">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+          </ConfigOptions>
+          <filename>unmp_child_library_room_lamp.gmmod</filename>
+        </datafile>
       </datafiles>
-      <datafiles number="110" name="entrance">
+      <datafiles number="114" name="entrance">
         <datafile>
           <name>unmp_entrance_furnace.gmmod</name>
           <exists>-1</exists>
@@ -924,7 +992,7 @@
           <filename>unmp_main_entrance.gmmod</filename>
         </datafile>
       </datafiles>
-      <datafiles number="110" name="halls">
+      <datafiles number="114" name="halls">
         <datafile>
           <name>unmp_hall_phone_entrance.gmmod</name>
           <exists>-1</exists>
@@ -994,7 +1062,7 @@
           <filename>unmp_to_nmp.gmmod</filename>
         </datafile>
       </datafiles>
-      <datafiles number="110" name="phone_room">
+      <datafiles number="114" name="phone_room">
         <datafile>
           <name>phone_room_base.gmmod</name>
           <exists>-1</exists>
@@ -1064,7 +1132,7 @@
           <filename>phone_room_furnature.gmmod</filename>
         </datafile>
       </datafiles>
-      <datafiles number="110" name="ext_further">
+      <datafiles number="114" name="ext_further">
         <datafile>
           <name>unmp_flower_shed_outside.gmmod</name>
           <exists>-1</exists>
@@ -1167,7 +1235,7 @@
           </ConfigOptions>
           <filename>unmp_hall_shed_extension.gmmod</filename>
         </datafile>
-        <datafiles number="110" name="quitter_room">
+        <datafiles number="114" name="quitter_room">
           <datafile>
             <name>unmp_quitter_entrance.gmmod</name>
             <exists>-1</exists>
@@ -1254,7 +1322,7 @@
             <filename>unmp_quitters_room.gmmod</filename>
           </datafile>
         </datafiles>
-        <datafiles number="110" name="tool_room">
+        <datafiles number="114" name="tool_room">
           <datafile>
             <name>unmp_tool_entrance.gmmod</name>
             <exists>-1</exists>
@@ -1498,6 +1566,7 @@
       <sound>sound\snd_mystery_beeps</sound>
       <sound>sound\snd_child_library_bbhatch</sound>
       <sound>sound\snd_bucket_pushing</sound>
+      <sound>sound\snd_child_library_room</sound>
     </sounds>
     <sounds name="Music">
       <sound>sound\mus_the_school</sound>
@@ -1757,6 +1826,13 @@
       <sprite>sprites\spr_under_nmp_exterior</sprite>
       <sprite>sprites\spr_quitters_clock</sprite>
       <sprite>sprites\spr_quitters_room</sprite>
+      <sprites name="child_library">
+        <sprite>sprites\spr_child_library_room</sprite>
+        <sprite>sprites\spr_child_library_room_matress</sprite>
+        <sprite>sprites\spr_child_library_room_lamp</sprite>
+        <sprite>sprites\spr_child_library_room_furnature</sprite>
+        <sprite>sprites\floor_piece</sprite>
+      </sprites>
     </sprites>
     <sprite>sprites\mult</sprite>
     <sprite>sprites\squig</sprite>
@@ -1970,6 +2046,9 @@
         <object>objects\obj_baby_hatch</object>
         <object>objects\obj_face_canvas</object>
         <object>objects\obj_face</object>
+        <object>objects\obj_face_two</object>
+        <object>objects\obj_child_library_room</object>
+        <object>objects\object105</object>
       </objects>
     </objects>
   </objects>
@@ -2021,6 +2100,7 @@
       <rooms name="child library">
         <room>rooms\rm_unmp_child_library_hall</room>
         <room>rooms\rm_unmp_child_library_entrance</room>
+        <room>rooms\rm_unmp_child_library_room</room>
       </rooms>
     </rooms>
     <rooms name="school">

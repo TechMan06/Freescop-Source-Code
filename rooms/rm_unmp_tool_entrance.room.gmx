@@ -73,6 +73,12 @@ global.pausetext = "Have you found#anything weird#lately?##There is much to#find
     <instance objName="obj_sign" x="-80" y="-96" name="inst_DFA63D2B" locked="0" code="boxcolor = c_black;&#xA;&#xA;text[0] = &quot;Room In Progress.&quot;&#xA;text_display[0] = &quot;[$=font(fnt_petscop)]Room In Progress!&quot;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_door" x="16" y="-80" name="inst_7D8A2464" locked="0" code="target_room = rm_unmp_tool_room;&#xA;target_x = 112-32;&#xA;target_y = 80-32;&#xA;fade_color = c_black;&#xA;dir = spr_player_move_up;&#xA;exitdir = spr_player_up;&#xA;forcemove = true;&#xA;transition_time = 70;&#xA;doorsteps = true;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_door_approach" x="16" y="-144" name="inst_6DFE7FD8" locked="0" code="dir = spr_player_move_up;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_piece5" x="320" y="-32" name="inst_CA3D70F8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_piece5" x="288" y="-32" name="inst_5E95886D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_piece2" x="256" y="-32" name="inst_4D32F8B4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_piece3" x="129" y="-32" name="inst_F792A28A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_piece1" x="96" y="-32" name="inst_A4513495" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_piece4" x="64" y="-32" name="inst_5A3726E6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

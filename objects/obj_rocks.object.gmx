@@ -94,6 +94,7 @@ d3d_draw_wall(320,-96,32,320+32,-96,0,sprite_get_texture(spr_rocks,3),1,1);
 d3d_draw_wall(128,-224,32,128+32,-224,0,sprite_get_texture(spr_rocks,1),1,1);
 d3d_draw_wall(448,-96,32,448+32,-96,0,sprite_get_texture(spr_rocks,3),1,1);
 d3d_draw_wall(480,96,32,480+32,96,0,sprite_get_texture(spr_rocks,0),1,1);
+d3d_draw_wall(256,-352,32,256+32,-352,0,sprite_get_texture(spr_rocks,0),1,1);
 
 }
 </string>

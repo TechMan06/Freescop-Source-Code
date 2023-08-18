@@ -85,11 +85,13 @@ z = 0
             <kind>1</kind>
             <string>if (instance_exists(obj_face_canvas)) {
     if (obj_face_canvas.puzzle_brain==11) {
+    
         d3d_model_clear(face[0])
         d3d_model_clear(face[1])
         d3d_model_clear(face[2])
         d3d_model_clear(face[3])
         d3d_model_clear(face[4])
+        
         face_left_eye_0 = obj_face_canvas.face_left_eye[0]; // Type
         face_left_eye_1 = obj_face_canvas.face_left_eye[1]; // X Offset
         face_left_eye_2 = obj_face_canvas.face_left_eye[2]; // Y Offset
@@ -108,9 +110,11 @@ z = 0
         
         face_nose_0 = obj_face_canvas.face_nose[0]; // Type
         face_nose_1 = obj_face_canvas.face_nose[2]; // Y Offset
+        
         draw = true;
         computed = true;
         make = false;
+        
     }
 }
 
@@ -139,13 +143,46 @@ if (face_left_eye_0 == 0) &amp;&amp; (face_right_eye_0 == 0) &amp;&amp; (draw==t
 }
 
 if (make=true) {
-    //show_debug_message("making room");
+    if (!audio_is_playing(snd_child_library_room)) {
+        audio_play_sound(snd_child_library_room,10,true);
+    }
     if (time&lt;10000) {
-        global.ccz = global.ccz - (-5 + random(10));
-        time++;
-        //show_debug_message(obj_camera_manager.z);
+        if (!global.paused) {
+            global.ccz = global.ccz - (-2.5 + random(5));
+            time++;
+        }
     }
 }
+
+if (room==rm_unmp_child_library_room) {
+    y = 160;
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="7" enumb="5">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if (room==rm_unmp_child_library_room) {
+    instance_destroy();
+}
+audio_stop_sound(snd_child_library_room);
 </string>
           </argument>
         </arguments>
@@ -215,12 +252,15 @@ d3d_model_draw(face[6], x,y, z+face_nose_1+48, sprite_get_texture(sprFaceNoseBla
           <argument>
             <kind>1</kind>
             <string>if (draw=true) {
-    d3d_transform_set_identity(); 
-    d3d_transform_add_rotation_z(180)
-    d3d_transform_set_identity();
-    d3d_transform_add_rotation_x(-10)  
-    d3d_transform_add_rotation_z(-29.2)
-    d3d_transform_add_translation(74,-148,40);
+    if (room==rm_unmp_child_library_entrance) {
+        d3d_transform_set_identity();
+        d3d_transform_add_rotation_z(180);
+        d3d_transform_set_identity();
+        d3d_transform_add_rotation_x(-10)  
+        d3d_transform_add_rotation_z(-29.2)
+        d3d_transform_add_translation(74,-145,40);
+    }
+    
     d3d_model_wall(face[0], x,y,z, x-18, y,z+17,1,1);
     d3d_model_wall(face[1], x,y,z, x-18,y,z+17,1,1);
     
@@ -234,12 +274,14 @@ d3d_model_draw(face[6], x,y, z+face_nose_1+48, sprite_get_texture(sprFaceNoseBla
     d3d_model_draw(face[1], (x-(face_right_eye_1))-17, y, z+face_right_eye_2, sprite_get_texture(sprFaceEyesBrows, face_left_eye_0));
     
     if (face_left_eyebrow_0!=0) {
-        d3d_model_draw(face[2], x-face_left_eyebrow_1-17, y, z+(face_left_eyebrow_2*4), sprite_get_texture(sprFaceEyesBrows, face_left_eyebrow_0+4));
+        d3d_model_draw(face[2], x-face_left_eyebrow_1, y, z-(face_right_eyebrow_2*2), sprite_get_texture(sprFaceEyesBrows, face_right_eyebrow_0+4));
     }
     if (face_right_eyebrow_0!=0) {
-        d3d_model_draw(face[3], x-face_right_eyebrow_1, y, z+(face_right_eyebrow_2*4), sprite_get_texture(sprFaceEyesBrows, face_right_eyebrow_0+4));
+        d3d_model_draw(face[3], x-face_right_eyebrow_1-17, y, z-(face_left_eyebrow_2*2), sprite_get_texture(sprFaceEyesBrows, face_left_eyebrow_0+4));
     }
-    d3d_model_draw(face[4], x-4 ,y, z+face_nose_1-6, sprite_get_texture(sprFaceNoseBlack, face_nose_0));
+    
+    d3d_model_draw(face[4], x-8 ,y, z+face_nose_1-12, sprite_get_texture(sprFaceNoseBlack, face_nose_0));
+
 }
 </string>
           </argument>

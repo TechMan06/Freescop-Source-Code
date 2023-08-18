@@ -71,6 +71,16 @@ global.pausetext = "Have you found#anything weird#lately?##There is much to#find
     <instance objName="obj_tool" x="575" y="-575" name="inst_90D02359" locked="0" code="y = -(559+16);&#xA;x = 559+16;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_echo_sounds" x="-912" y="-1904" name="inst_EFBA0941" locked="0" code="" scaleX="103.5" scaleY="89" colour="4294967295" rotation="0"/>
     <instance objName="obj_tool_activate" x="576" y="-544" name="inst_2743D93A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_piece4" x="64" y="-64" name="inst_0A0AAC60" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_piece1" x="96" y="-64" name="inst_3056ACA6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_piece3" x="64" y="-112" name="inst_25BC0121" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_piece2" x="96" y="-112" name="inst_672679BA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_piece5" x="256" y="-192" name="inst_4010B41D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_piece5" x="288" y="-192" name="inst_4C061D03" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_piece1" x="544" y="-336" name="inst_D55FDCCC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_piece2" x="576" y="-336" name="inst_634AFD73" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_piece3" x="576" y="-288" name="inst_75F189DC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_piece4" x="544" y="-288" name="inst_085F0AD7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

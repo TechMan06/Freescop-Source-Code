@@ -1,5 +1,5 @@
 ///save_demo();
-var file = file_text_open_write("demo.demo");
+var file = file_text_open_write("recordings/demo.demo");
 
 for(var i = 0; i < ds_list_size(recordedinputs); i++){
     file_text_write_string(file,ds_list_find_value(recordedinputs,i));

@@ -68,7 +68,7 @@ global.clz = obj_player_rpg.z;
 global.ccx = obj_camera_manager.x 
 global.ccy = 150.20;
 global.ccz = 125.50;
-global.ccx = clamp(global.ccx,0,2048)
+global.ccx = clamp(global.ccx-16,0,2048)
 </string>
           </argument>
         </arguments>

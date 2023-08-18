@@ -3,7 +3,7 @@
 //create struct
 replayinputs = ds_map_create();
 //open file
-var file = file_text_open_read("demo.demo");
+var file = file_text_open_read("recordings/demo.demo");
 
 //loop data
 while(!file_text_eof(file)) {

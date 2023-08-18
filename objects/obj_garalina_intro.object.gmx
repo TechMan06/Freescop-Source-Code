@@ -58,18 +58,6 @@ transition.fade_color = c_white;
 transition.transition_time = 126;
 }
 }
-
-if(global.start_pressed) {
-if(!instance_exists(obj_fade)) {
-var transition = instance_create(0,0,obj_fade);
-transition.target_room = rm_title;
-transition.fade_color = c_white;
-transition.transition_time = 126;
-}
-if(audio_is_playing(audio)) {
-audio_stop_sound(audio);
-}
-}
 </string>
           </argument>
         </arguments>
